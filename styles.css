@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 200px;
+  padding: 10px;
+}
+
+#popup-content {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.sponsor {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sponsor p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.sponsor img {
+  width: 80px;
+  height: auto;
+}
