@@ -6,6 +6,10 @@ body {
 
 #popup-content {
   text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+  justify-content: center; /* Center elements vertically */
 }
 
 button {
@@ -14,6 +18,7 @@ button {
   color: white;
   border: none;
   cursor: pointer;
+  margin-top: 15px; /* Add space between the slider and the button */
 }
 
 button:hover {
@@ -34,4 +39,14 @@ button:hover {
 .sponsor img {
   width: 80px;
   height: auto;
+}
+
+#days-slider {
+  margin: 15px 0; 
+  width: 100%; 
+}
+
+#days-value {
+  font-weight: bold; 
+  margin-left: 5px; 
 }
